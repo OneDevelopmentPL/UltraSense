@@ -7,6 +7,8 @@ Perfect for robotics, distance measurement, obstacle avoidance, and IoT projects
 
 ---
 
+![OpenLibraries-Arduino](https://img.shields.io/badge/OpenLibraries--Arduino-Official_Collaboration-2ea44f)
+
 ## ✨ Features
 
 * 📏 Distance measurement in:
