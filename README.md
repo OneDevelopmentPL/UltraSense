@@ -37,7 +37,7 @@ Documents/Arduino/libraries/
 ### Option 2 – Git
 
 ```
-git clone https://github.com/YOUR_USERNAME/UltraSense.git
+git clone https://github.com/OneDevelopmentPL/UltraSense.git
 ```
 
 ---
@@ -116,6 +116,6 @@ MIT License
 
 ## 👨‍💻 Author
 
-Created by Iwo Wolanin
+Created by OneDevelopmentPL
 Feel free to contribute or open issues.
 
