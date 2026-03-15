@@ -25,22 +25,17 @@ Perfect for robotics, distance measurement, obstacle avoidance, and IoT projects
 
 ## 📦 Installation
 
-### Option 1 – Manual
+### Option 1 – From library manager.
 
-1. Download this repository as ZIP.
-2. Extract to:
+1. Enter the Library Manager.
+2. Search for "UltraSense".
+3. Click "Install"
 
-```
-Documents/Arduino/libraries/
-```
-
-3. Restart Arduino IDE.
-
-### Option 2 – Git
-
-```
-git clone https://github.com/OneDevelopmentPL/UltraSense.git
-```
+### Option 2 – Manual
+1. In this GitHub Page, click "Code", then "Download ZIP"
+2. Go to Arduino IDE.
+3. Click "Sketch", "Include library", "Add .ZIP Library".
+4. Select downloaded .zip file.
 
 ---
 
