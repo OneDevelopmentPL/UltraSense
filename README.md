@@ -172,4 +172,4 @@ MIT License – free to use, modify and distribute.
 
 ## Author
 
-[OneDevelopmentPL](https://github.com/OneDevelopmentPL)
+[OneDevelopmentPL](https://github.com/OneDevelopmentPL) and OpenLibraries-Arduino
