@@ -65,4 +65,4 @@ If you're adding a new example sketch, place it in the `examples/` folder and na
 
 ## License
 
-By contributing, you agree that your changes will be released under the [MIT License](LICENSE) that covers this project.
+By contributing, you agree that your changes will be released under the [O-LA 1.1](LICENSE) that covers this project.
