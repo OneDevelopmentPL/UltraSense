@@ -172,7 +172,7 @@ Distance
 
 ## License
 
-MIT License – free to use, modify and distribute.
+OL-A 2.0 License – see LICENSE file.
 
 ---
 
