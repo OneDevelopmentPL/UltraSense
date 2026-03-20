@@ -172,7 +172,7 @@ Distance
 
 ## License
 
-OL-A 1.1 License – see LICENSE file.
+[OL-A 1.1 License](LICENSE) – see [LICENSE](LICENSE) file.
 
 ---
 
