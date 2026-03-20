@@ -166,6 +166,10 @@ Distance
 
 ---
 
+## How to contribute
+
+> To see how, visit `CONTRIBUTING.md` file.
+
 ## License
 
 MIT License – free to use, modify and distribute.
