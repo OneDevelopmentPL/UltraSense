@@ -17,7 +17,7 @@ b) Manual download (latest version)
 2. In Arduino IDE: **Sketch → Include Library → Add .ZIP Library...**
 3. Select the downloaded file
 
-[View installation video on YouTube1](https://youtu.be/g0R-_SMfU2o)
+[View installation video on YouTube](https://youtu.be/g0R-_SMfU2o)
 
 ---
 
