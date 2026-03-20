@@ -172,7 +172,7 @@ Distance
 
 ## License
 
-OL-A 2.0 License – see LICENSE file.
+OL-A 1.1 License – see LICENSE file.
 
 ---
 
