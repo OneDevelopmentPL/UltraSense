@@ -7,7 +7,7 @@ Supports distance readings in CM / inches, object speed measurement, and a built
 
 ## Installation
 
-a) From Arduino Library Manager (old v1 version)
+a) From Arduino Library Manager
 1. In the sidebar click library manager
 2. Search for "UltraSense" (by OneDevelopment & OpenLibraries-Arduino)
 3. Click "Install"
