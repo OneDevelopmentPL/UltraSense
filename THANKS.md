@@ -1,3 +1,6 @@
-# Special thanks for [vityk-dev](github.com/vityk-dev) for help to promote our library!
+## Thanks
 
-vityk-dev has many good ai projects that we support too, see [His repos](github.com/vityk-dev?tab=repositories)
+Thanks to [vityk-dev](https://github.com/vityk-dev) for helping promote this project.
+
+He’s not a contributor, but his support means a lot.  
+Check out his work [here](https://github.com/vityk-dev?tab=repositories)
