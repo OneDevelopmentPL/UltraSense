@@ -61,27 +61,23 @@ long UltraSense::readRaw() {
 }
 
 float UltraSense::readCM() {
-  long d = measure();
-  return d * 0.0343f / 2.0f;
+  measure();
+  return _lastDuration * 0.0343f / 2.0f;
 }
-
 float UltraSense::readMM() {
-  return readCM() * 10.0f;
+  return _lastDuration * 0.343f / 2.0f;  // bez nowego measure()
 }
-
 float UltraSense::readInches() {
-  return readCM() / 2.54f;
+  return _lastDuration * 0.0343f / 2.0f / 2.54f;  // bez nowego measure()
 }
-
 float UltraSense::readAverageCM(uint8_t samples) {
   float sum = 0;
   for (uint8_t i = 0; i < samples; i++) {
     sum += readCM();
-    delay(10);
+    delay(60);  // było 10 — za mało!
   }
   return sum / samples;
 }
-
 float UltraSense::readAverageMM(uint8_t samples) {
   return readAverageCM(samples) * 10.0f;
 }
