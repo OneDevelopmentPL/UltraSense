@@ -1,0 +1,78 @@
+name: Arduino CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  compile:
+    name: Compile examples
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        board:
+          - fqbn: arduino:avr:uno
+            name: Arduino Uno
+          - fqbn: arduino:avr:mega
+            name: Arduino Mega
+          - fqbn: arduino:avr:nano
+            name: Arduino Nano
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Arduino CLI
+        uses: arduino/setup-arduino-cli@v2
+
+      - name: Install Arduino AVR core
+        run: |
+          arduino-cli core update-index
+          arduino-cli core install arduino:avr
+
+      - name: Install library into Arduino libraries folder
+        run: |
+          mkdir -p $HOME/Arduino/libraries/UltraSense
+          cp -r src/* $HOME/Arduino/libraries/UltraSense/
+          cp library.properties $HOME/Arduino/libraries/UltraSense/
+
+      - name: Compile 01_BasicDistance (${{ matrix.board.name }})
+        run: |
+          arduino-cli compile \
+            --fqbn ${{ matrix.board.fqbn }} \
+            examples/01_BasicDistance
+
+      - name: Compile 02_AverageAndSpeed (${{ matrix.board.name }})
+        run: |
+          arduino-cli compile \
+            --fqbn ${{ matrix.board.fqbn }} \
+            examples/02_AverageAndSpeed
+
+      - name: Compile 03_MotionDetection_Polling (${{ matrix.board.name }})
+        run: |
+          arduino-cli compile \
+            --fqbn ${{ matrix.board.fqbn }} \
+            examples/03_MotionDetection_Polling
+
+      - name: Compile 04_MotionDetection_Callback (${{ matrix.board.name }})
+        run: |
+          arduino-cli compile \
+            --fqbn ${{ matrix.board.fqbn }} \
+            examples/04_MotionDetection_Callback
+
+  lint:
+    name: Lint library structure
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Arduino Library Lint
+        uses: arduino/arduino-lint-action@v1
+        with:
+          library-manager: update
+          compliance: strict
