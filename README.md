@@ -1,7 +1,7 @@
 # UltraSense
 
 A simple and intuitive Arduino library for the **HC-SR04** ultrasonic sensor.  
-Supports distance readings in CM / MM/  inches, object speed measurement, and a built-in **motion detection mode** — turning your HC-SR04 into a PIR-like presence sensor.
+Supports distance readings in CM / MM/ inches, object speed measurement, and a built-in **motion detection mode** — turning your HC-SR04 into a PIR-like presence sensor.
 
 ---
 
