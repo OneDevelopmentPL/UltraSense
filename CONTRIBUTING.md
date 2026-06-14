@@ -1,6 +1,7 @@
+
 # Contributing to UltraSense
 
-Thanks for your interest in contributing! UltraSense is a small, focused library — contributions that keep it **lightweight and easy to use** are most welcome.
+Thanks for your interest in contributing! UltraSense is a small, focused library - contributions that keep it **lightweight and easy to use** are most welcome.
 
 ---
 
