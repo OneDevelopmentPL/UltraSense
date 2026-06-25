@@ -172,10 +172,10 @@ Distance
 
 ## License
 
-[OL-A 1.1 License](LICENSE) – see [LICENSE](LICENSE) file.
+[OL 1.1 License](LICENSE) – see [LICENSE](LICENSE) file.
 
 ---
 
 ## Author
 
-[OneDevelopmentPL](https://github.com/OneDevelopmentPL) and [OpenLibraries-Arduino](https://github.com/openlibraries-arduino-org)
+[OneDevelopmentPL](https://github.com/OneDevelopmentPL) and [OpenLibraries](https://github.com/openlibraries-arduino-org)
